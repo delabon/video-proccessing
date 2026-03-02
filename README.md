@@ -2,7 +2,12 @@
 
 A minimal Laravel app that accepts video uploads and generates lower-resolution variants (e.g., 4K -> 2K, 1080p, 720p, 480p).
 
-Built as a demo project to showcase a video-processing workflow using Laravel queues and FFmpeg.
+## Features
+
+- Upload videos via API
+- Background job processing to generate multiple resolution variants
+- Video and VideoVariant models with policies
+- Queue-driven processing using Redis and Laravel Jobs
 
 ## Tech stack
 
@@ -14,13 +19,6 @@ Built as a demo project to showcase a video-processing workflow using Laravel qu
 - Redis (queues & cache)
 - Docker + Sail (local development)
 - FFmpeg (for video transcoding)
-
-## Features
-
-- Upload videos via API
-- Background job processing to generate multiple resolution variants
-- Video and VideoVariant models with policies
-- Queue-driven processing using Redis and Laravel Jobs
 
 ## How to install
 
