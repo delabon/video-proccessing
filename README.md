@@ -1,4 +1,4 @@
-# Video Processing MVP
+# Video Processing - Generates lower-resolution variants
 
 A minimal Laravel app that accepts video uploads and generates lower-resolution variants (e.g., 4K -> 2K, 1080p, 720p, 480p).
 
