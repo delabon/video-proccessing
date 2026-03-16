@@ -53,8 +53,8 @@
         <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
             <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
                 <div class="text-[13px] leading-[20px] flex-1 p-6 pb-12 lg:p-20 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-es-lg rounded-ee-lg lg:rounded-ss-lg lg:rounded-ee-none">
-                    <h1 class="mb-1 font-medium">ScreenPal MVP</h1>
-                    <p class="text-[#706f6c] dark:text-[#A1A09A]">The goal of this MVP is to create a basic video processing app where clients (web or mobile) can upload videos using our API and receive converted versions in different resolutions.</p>
+                    <h1 class="mb-1 font-medium">Video Processing API</h1>
+                    <p class="text-[#706f6c] dark:text-[#A1A09A]">The goal of this app is to create a basic video processing app where clients (web or mobile) can upload videos using our API and receive converted versions in different resolutions.</p>
                     <p class="text-[#706f6c] dark:text-[#A1A09A]">For example, if a client uploads a 4K video, the app will generate these formats: 2K, 1080p, 720p, and 480p.</p>
                     <p class="mb-2 mt-2 text-[#706f6c] dark:text-[#A1A09A]">
                         <flux:link href="{{ route('login') }}">Login</flux:link>
