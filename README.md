@@ -27,8 +27,8 @@ These instructions assume you're on a Linux machine with composer installed and 
 1. Clone the repository
 
 ```shell
-git clone git@github.com:delabon/video-proccessing-mvp.git
-cd video-proccessing-mvp
+git clone git@github.com:delabon/video-proccessing.git
+cd video-proccessing
 ```
 
 2. Install dependencies
