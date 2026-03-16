@@ -62,20 +62,20 @@ vendor/bin/sail npm run build
 
 ```shell
 # By default the app uses SQLite for local development. Create the storage/database file:
-vendor/bin/sail touch database/database.sqlite
+touch database/database.sqlite
 vendor/bin/sail artisan migrate --step
 ```
 
-7. Redis & Queues
-
-```shell
-vendor/bin/sail artisan queue:work --tries=3
-```
-
-8. Storage link
+7. Storage link
 
 ```shell
    vendor/bin/sail artisan storage:link
+```
+
+8. Redis & Queues
+
+```shell
+vendor/bin/sail artisan queue:work --tries=3
 ```
 
 9. Open the app
