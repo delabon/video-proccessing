@@ -101,7 +101,7 @@ new class extends Component {
                             wire:confirm="Are you sure you want to delete this video?"
                             variant="danger"
                             class="cursor-pointer"
-                        >Danger
+                        >Delete
                         </flux:button>
                     </td>
                 </tr>
