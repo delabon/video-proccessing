@@ -17,13 +17,10 @@ final class VideoUploaderController extends Controller
     {
         Gate::authorize('create', [Video::class]);
 
-        $user = $request->user();
-        $file = $request->file('video');
-
         try {
             $video = $action->handle(
-                $user,
-                $file,
+                $request->user(),
+                $request->file('video'),
             );
 
             return response()
